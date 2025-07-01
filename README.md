@@ -13,17 +13,6 @@
 This project focuses on performing **Sentiment Analysis** using **Natural Language Processing (NLP)** techniques on a dataset of 500 customer reviews.  
 The objective is to classify reviews as **Positive** or **Negative** based on their textual content.
 
-## TASK OBJECTIVE
-
-> Perform sentiment analysis on a dataset of customer reviews using:  
-> - TF-IDF Vectorization  
-> - Logistic Regression  
-
-> **Deliverable**: A complete Jupyter Notebook with:  
-> - Preprocessing  
-> - Modeling  
-> - Sentiment Evaluation  
-
 ## TOOLS & TECHNOLOGIES USED
 
 - **Python**
@@ -32,4 +21,8 @@ The objective is to classify reviews as **Positive** or **Negative** based on th
 - **Matplotlib, Seaborn** – Data visualization
 - **Regular Expressions (re)** – Text preprocessing
 - **Scikit-learn** – TF-IDF, Logistic Regression, Evaluation metrics
+
+
+##OUTPUT:
+
 
