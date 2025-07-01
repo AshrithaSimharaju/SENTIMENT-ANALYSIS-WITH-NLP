@@ -1,0 +1,501 @@
+Customer_ID,Age,Gender,Product_ID,Review_Text,Rating,Sentiment,Purchase_Date,Location,Return_Status
+CUST0001,58.0,Male,PROD666,"Amazing experience, will watch again.",4,Positive,2024-01-01,Chennai,Not Returned
+CUST0002,25.0,Female,PROD399,"Excellent product, highly recommend!",5,Positive,2024-01-02,Bangalore,Returned
+CUST0003,19.0,Male,PROD814,Terrible customer service.,5,Negative,2024-01-03,Delhi,Not Returned
+CUST0004,65.0,Male,PROD229,Best product I’ve used this year.,4,Positive,2024-01-04,Delhi,Returned
+CUST0005,35.0,Female,PROD753,Satisfied with the purchase.,5,Positive,2024-01-05,Delhi,Not Returned
+CUST0006,33.0,Female,PROD989,"Excellent product, highly recommend!",5,Positive,2024-01-06,Mumbai,Returned
+CUST0007,32.0,Male,PROD870,"Good quality, fast delivery.",3,Neutral,2024-01-07,Bangalore,Not Returned
+CUST0008,26.0,Female,PROD602,"Loved it, will buy again!",3,Positive,2024-01-08,Delhi,Not Returned
+CUST0009,65.0,Male,PROD205,"Absolutely terrible, would not recommend.",2,Negative,2024-01-09,Chennai,Returned
+CUST0010,,Other,PROD993,"Average quality, nothing special.",4,Positive,2024-01-10,Chennai,Returned
+CUST0011,61.0,Male,PROD112,"Very bad experience, will not buy again.",1,Negative,2024-01-11,Hyderabad,Returned
+CUST0012,65.0,Other,PROD687,Terrible customer service.,4,Negative,2024-01-12,Delhi,Not Returned
+CUST0013,52.0,Male,PROD391,"Loved it, will buy again!",4,Positive,2024-01-13,Bangalore,Not Returned
+CUST0014,23.0,Female,PROD580,"Absolutely terrible, would not recommend.",3,Negative,2024-01-14,Mumbai,Returned
+CUST0015,55.0,Other,PROD590,Not worth the money.,3,Neutral,2024-01-15,Hyderabad,Returned
+CUST0016,45.0,Female,PROD551,"Average quality, nothing special.",5,Positive,2024-01-16,Delhi,Returned
+CUST0017,20.0,Other,PROD448,Great value for the price.,1,Negative,2024-01-17,Mumbai,Returned
+CUST0018,19.0,Other,PROD288,"Average quality, nothing special.",3,Neutral,2024-01-18,Bangalore,Not Returned
+CUST0019,23.0,Male,PROD152,Best product I’ve used this year.,5,Positive,2024-01-19,Bangalore,Returned
+CUST0020,31.0,Male,PROD358,Worst product I have ever bought.,1,Negative,2024-01-20,Hyderabad,Not Returned
+CUST0021,32.0,Male,PROD982,"Loved it, will buy again!",3,Positive,2024-01-21,Hyderabad,Not Returned
+CUST0022,50.0,Male,PROD589,Worst product I have ever bought.,4,Negative,2024-01-22,Delhi,Returned
+CUST0023,56.0,Female,PROD216,Worst product I have ever bought.,4,Negative,2024-01-23,Mumbai,Returned
+CUST0024,19.0,Male,PROD941,Terrible customer service.,1,Negative,2024-01-24,Chennai,Returned
+CUST0025,53.0,Male,PROD166,"Average quality, nothing special.",1,Negative,2024-01-25,Mumbai,Returned
+CUST0026,30.0,Other,PROD510,Terrible customer service.,3,Negative,2024-01-26,Bangalore,Not Returned
+CUST0027,63.0,Female,PROD603,Satisfied with the purchase.,3,Neutral,2024-01-27,Bangalore,Returned
+CUST0028,59.0,Female,PROD175,,1,Negative,2024-01-28,Delhi,Returned
+CUST0029,62.0,Other,PROD690,Terrible customer service.,1,Negative,2024-01-29,Chennai,Not Returned
+CUST0030,52.0,Other,PROD744,,5,Negative,2024-01-30,Delhi,Returned
+CUST0031,,Male,PROD802,"Loved it, will buy again!",5,Positive,2024-01-31,Bangalore,Not Returned
+CUST0032,32.0,Female,PROD154,Best product I’ve used this year.,5,Positive,2024-02-01,Bangalore,Not Returned
+CUST0033,46.0,Male,PROD255,"Very bad experience, will not buy again.",4,Negative,2024-02-02,Mumbai,Not Returned
+CUST0034,55.0,Other,PROD252,Satisfied with the purchase.,4,Positive,2024-02-03,Chennai,Not Returned
+CUST0035,35.0,Male,PROD930,"Very bad experience, will not buy again.",5,Negative,2024-02-04,Mumbai,Not Returned
+CUST0036,69.0,Female,PROD676,"Average quality, nothing special.",5,Positive,2024-02-05,Mumbai,Not Returned
+CUST0037,18.0,Male,PROD411,Best product I’ve used this year.,1,Negative,2024-02-06,Delhi,Not Returned
+CUST0038,66.0,Female,PROD187,Great value for the price.,4,Positive,2024-02-07,Mumbai,Not Returned
+CUST0039,69.0,Male,PROD354,"Amazing experience, will watch again.",5,Positive,2024-02-08,Hyderabad,Not Returned
+CUST0040,28.0,Male,PROD221,"Absolutely terrible, would not recommend.",2,Negative,2024-02-09,Hyderabad,Not Returned
+CUST0041,62.0,Female,PROD671,"Amazing experience, will watch again.",3,Positive,2024-02-10,Mumbai,Returned
+CUST0042,45.0,Female,PROD882,Not worth the money.,5,Positive,2024-02-11,,Not Returned
+CUST0043,39.0,Female,PROD526,Best product I’ve used this year.,4,Positive,2024-02-12,,Not Returned
+CUST0044,35.0,Male,PROD720,Worst product I have ever bought.,5,Negative,2024-02-13,Bangalore,Returned
+CUST0045,27.0,Male,PROD710,"Loved it, will buy again!",2,Negative,2024-02-14,Bangalore,Not Returned
+CUST0046,31.0,Male,PROD909,"Very bad experience, will not buy again.",1,Negative,2024-02-15,Chennai,Not Returned
+CUST0047,66.0,Other,PROD733,Best product I’ve used this year.,4,Positive,2024-02-16,Delhi,Not Returned
+CUST0048,39.0,Male,PROD331,,1,Negative,2024-02-17,,Returned
+CUST0049,24.0,Female,PROD894,"Excellent product, highly recommend!",3,Positive,2024-02-18,Hyderabad,Returned
+CUST0050,23.0,Female,PROD635,Terrible customer service.,1,Negative,2024-02-19,Delhi,Returned
+CUST0051,42.0,Female,PROD489,Worst product I have ever bought.,5,Negative,2024-02-20,Mumbai,Returned
+CUST0052,24.0,Male,PROD561,"Very bad experience, will not buy again.",2,Negative,2024-02-21,Chennai,Not Returned
+CUST0053,40.0,Female,PROD553,Satisfied with the purchase.,1,Negative,2024-02-22,Mumbai,Not Returned
+CUST0054,40.0,Female,PROD404,"Loved it, will buy again!",2,Negative,2024-02-23,Delhi,Not Returned
+CUST0055,56.0,Other,PROD980,"Amazing experience, will watch again.",4,Positive,2024-02-24,Chennai,Returned
+CUST0056,34.0,Other,PROD702,"Absolutely terrible, would not recommend.",4,Negative,2024-02-25,Hyderabad,Returned
+CUST0057,69.0,Female,PROD539,"Amazing experience, will watch again.",5,Positive,2024-02-26,,Not Returned
+CUST0058,20.0,Other,PROD412,Terrible customer service.,5,Negative,2024-02-27,Mumbai,Returned
+CUST0059,64.0,Other,PROD682,"Good quality, fast delivery.",5,Positive,2024-02-28,Bangalore,Not Returned
+CUST0060,47.0,Female,PROD735,Not worth the money.,2,Negative,2024-02-29,Delhi,Returned
+CUST0061,52.0,Male,PROD161,"Amazing experience, will watch again.",3,Positive,2024-03-01,Delhi,Not Returned
+CUST0062,25.0,Male,PROD724,"Loved it, will buy again!",3,Positive,2024-03-02,Mumbai,Not Returned
+CUST0063,42.0,Female,PROD857,"Very bad experience, will not buy again.",3,Negative,2024-03-03,Delhi,Not Returned
+CUST0064,23.0,Male,PROD201,"Amazing experience, will watch again.",4,Positive,2024-03-04,Hyderabad,Not Returned
+CUST0065,53.0,Other,PROD881,Great value for the price.,4,Positive,2024-03-05,Mumbai,Not Returned
+CUST0066,36.0,Female,PROD312,Satisfied with the purchase.,3,Neutral,2024-03-06,Hyderabad,Not Returned
+CUST0067,58.0,,PROD740,"Excellent product, highly recommend!",5,Positive,2024-03-07,Chennai,Returned
+CUST0068,57.0,,PROD316,"Good quality, fast delivery.",1,Negative,2024-03-08,Chennai,Not Returned
+CUST0069,,Other,PROD370,Worst product I have ever bought.,3,Negative,2024-03-09,Bangalore,Returned
+CUST0070,54.0,Female,PROD776,"Loved it, will buy again!",1,Negative,2024-03-10,Delhi,Returned
+CUST0071,30.0,Female,PROD183,"Good quality, fast delivery.",3,Neutral,2024-03-11,Chennai,Not Returned
+CUST0072,63.0,Other,PROD260,Great value for the price.,1,Negative,2024-03-12,Delhi,Returned
+CUST0073,22.0,Female,PROD345,"Amazing experience, will watch again.",5,Positive,2024-03-13,Hyderabad,Returned
+CUST0074,,Female,PROD277,"Very bad experience, will not buy again.",4,Negative,2024-03-14,Mumbai,Returned
+CUST0075,60.0,Other,PROD665,"Amazing experience, will watch again.",3,Positive,2024-03-15,Chennai,Returned
+CUST0076,32.0,Other,PROD176,Satisfied with the purchase.,3,Neutral,2024-03-16,Mumbai,Returned
+CUST0077,,,PROD260,,5,Negative,2024-03-17,Chennai,Returned
+CUST0078,36.0,Female,PROD102,Terrible customer service.,2,Negative,2024-03-18,Delhi,Not Returned
+CUST0079,23.0,Other,PROD518,,3,Positive,2024-03-19,Chennai,Returned
+CUST0080,32.0,Male,PROD561,Not worth the money.,1,Negative,2024-03-20,Chennai,Returned
+CUST0081,24.0,Female,PROD805,"Very bad experience, will not buy again.",5,Negative,2024-03-21,Hyderabad,Returned
+CUST0082,42.0,Male,PROD708,"Average quality, nothing special.",2,Negative,2024-03-22,Bangalore,Returned
+CUST0083,35.0,Other,PROD581,"Excellent product, highly recommend!",3,Positive,2024-03-23,,Returned
+CUST0084,47.0,Female,PROD398,"Excellent product, highly recommend!",3,Positive,2024-03-24,Mumbai,Returned
+CUST0085,,Male,PROD133,Terrible customer service.,4,Negative,2024-03-25,Delhi,Not Returned
+CUST0086,41.0,Other,PROD337,Satisfied with the purchase.,2,Negative,2024-03-26,Delhi,Not Returned
+CUST0087,28.0,Other,PROD395,"Very bad experience, will not buy again.",5,Negative,2024-03-27,Chennai,Returned
+CUST0088,41.0,Other,PROD823,"Very bad experience, will not buy again.",1,Negative,2024-03-28,Delhi,Not Returned
+CUST0089,40.0,Other,PROD389,Great value for the price.,3,Neutral,2024-03-29,Bangalore,Not Returned
+CUST0090,31.0,Other,PROD819,Worst product I have ever bought.,5,Negative,2024-03-30,Bangalore,Returned
+CUST0091,60.0,Other,PROD980,,4,Positive,2024-03-31,Chennai,Returned
+CUST0092,35.0,Other,PROD564,Not worth the money.,3,Neutral,2024-04-01,Chennai,Not Returned
+CUST0093,62.0,Male,PROD172,Satisfied with the purchase.,2,Negative,2024-04-02,Mumbai,Returned
+CUST0094,61.0,Female,PROD803,"Loved it, will buy again!",5,Positive,2024-04-03,Chennai,Returned
+CUST0095,59.0,Female,PROD339,"Amazing experience, will watch again.",1,Negative,2024-04-04,Hyderabad,Not Returned
+CUST0096,22.0,Male,PROD370,"Absolutely terrible, would not recommend.",4,Negative,2024-04-05,Hyderabad,Not Returned
+CUST0097,56.0,Other,PROD906,"Absolutely terrible, would not recommend.",5,Negative,2024-04-06,Hyderabad,Returned
+CUST0098,58.0,Female,PROD910,Worst product I have ever bought.,3,Negative,2024-04-07,Bangalore,Not Returned
+CUST0099,28.0,Other,PROD740,Not worth the money.,1,Negative,2024-04-08,Delhi,Returned
+CUST0100,52.0,Female,PROD703,"Good quality, fast delivery.",3,Neutral,2024-04-09,Mumbai,Returned
+CUST0101,64.0,Other,PROD777,"Absolutely terrible, would not recommend.",3,Negative,2024-04-10,Chennai,Returned
+CUST0102,33.0,Male,PROD923,,2,Negative,2024-04-11,Mumbai,Returned
+CUST0103,28.0,Other,PROD302,"Average quality, nothing special.",2,Negative,2024-04-12,Bangalore,Returned
+CUST0104,47.0,Female,PROD535,Not worth the money.,3,Neutral,2024-04-13,Chennai,Returned
+CUST0105,,Other,PROD217,"Amazing experience, will watch again.",4,Positive,2024-04-14,Chennai,Not Returned
+CUST0106,35.0,Female,PROD657,"Very bad experience, will not buy again.",2,Negative,2024-04-15,Bangalore,Not Returned
+CUST0107,58.0,Other,PROD330,Satisfied with the purchase.,2,Negative,2024-04-16,Delhi,Not Returned
+CUST0108,62.0,Female,PROD763,"Good quality, fast delivery.",2,Negative,2024-04-17,Chennai,Not Returned
+CUST0109,53.0,Female,PROD252,Not worth the money.,2,Negative,2024-04-18,Delhi,Returned
+CUST0110,32.0,Female,PROD372,Terrible customer service.,1,Negative,2024-04-19,Bangalore,Not Returned
+CUST0111,61.0,Other,PROD946,"Excellent product, highly recommend!",3,Positive,2024-04-20,Mumbai,Not Returned
+CUST0112,38.0,Female,PROD245,"Absolutely terrible, would not recommend.",1,Negative,2024-04-21,Chennai,Not Returned
+CUST0113,67.0,Other,PROD173,"Loved it, will buy again!",5,Positive,2024-04-22,Delhi,Returned
+CUST0114,67.0,Male,PROD161,Great value for the price.,5,Positive,2024-04-23,Chennai,Returned
+CUST0115,21.0,Male,PROD269,Satisfied with the purchase.,5,Positive,2024-04-24,Delhi,Not Returned
+CUST0116,32.0,Female,PROD911,,1,Negative,2024-04-25,Chennai,Returned
+CUST0117,70.0,Other,PROD414,Great value for the price.,3,Neutral,2024-04-26,Chennai,Returned
+CUST0118,20.0,Female,PROD709,"Loved it, will buy again!",5,Positive,2024-04-27,Chennai,Returned
+CUST0119,69.0,Other,PROD866,"Very bad experience, will not buy again.",2,Negative,2024-04-28,Mumbai,Not Returned
+CUST0120,38.0,Other,PROD944,"Amazing experience, will watch again.",5,Positive,2024-04-29,Chennai,Not Returned
+CUST0121,43.0,Male,PROD682,"Loved it, will buy again!",4,Positive,2024-04-30,Delhi,Not Returned
+CUST0122,35.0,Other,PROD395,Worst product I have ever bought.,2,Negative,2024-05-01,Mumbai,Not Returned
+CUST0123,22.0,Other,PROD549,"Amazing experience, will watch again.",2,Negative,2024-05-02,Hyderabad,Returned
+CUST0124,31.0,,PROD227,"Loved it, will buy again!",2,Negative,2024-05-03,Delhi,Returned
+CUST0125,,,PROD579,"Excellent product, highly recommend!",5,Positive,2024-05-04,Delhi,Returned
+CUST0126,63.0,Other,PROD805,Not worth the money.,2,Negative,2024-05-05,Hyderabad,Returned
+CUST0127,38.0,Male,PROD411,Terrible customer service.,4,Negative,2024-05-06,Mumbai,Not Returned
+CUST0128,31.0,Female,PROD816,Great value for the price.,1,Negative,2024-05-07,Chennai,Not Returned
+CUST0129,59.0,Female,PROD512,"Very bad experience, will not buy again.",4,Negative,2024-05-08,Delhi,Not Returned
+CUST0130,49.0,Male,PROD378,Satisfied with the purchase.,3,Neutral,2024-05-09,Hyderabad,Returned
+CUST0131,43.0,,PROD612,"Very bad experience, will not buy again.",2,Negative,2024-05-10,Chennai,Returned
+CUST0132,59.0,Other,PROD652,"Amazing experience, will watch again.",4,Positive,2024-05-11,Mumbai,Returned
+CUST0133,47.0,Other,PROD605,Great value for the price.,5,Positive,2024-05-12,Delhi,Returned
+CUST0134,27.0,Other,PROD548,"Amazing experience, will watch again.",3,Positive,2024-05-13,Chennai,Not Returned
+CUST0135,34.0,Female,PROD182,"Amazing experience, will watch again.",4,Positive,2024-05-14,Chennai,Not Returned
+CUST0136,26.0,Female,PROD712,"Good quality, fast delivery.",2,Negative,2024-05-15,Bangalore,Returned
+CUST0137,33.0,Female,PROD140,"Excellent product, highly recommend!",5,Positive,2024-05-16,Hyderabad,Returned
+CUST0138,65.0,Female,PROD542,"Excellent product, highly recommend!",2,Negative,2024-05-17,Chennai,Not Returned
+CUST0139,53.0,Other,PROD852,Best product I’ve used this year.,3,Positive,2024-05-18,Mumbai,Returned
+CUST0140,52.0,Male,PROD430,"Loved it, will buy again!",4,Positive,2024-05-19,Bangalore,Returned
+CUST0141,34.0,Other,PROD718,Great value for the price.,2,Negative,2024-05-20,Chennai,Not Returned
+CUST0142,65.0,Female,PROD356,"Average quality, nothing special.",3,Neutral,2024-05-21,Chennai,Returned
+CUST0143,55.0,Other,PROD126,Best product I’ve used this year.,5,Positive,2024-05-22,Mumbai,Returned
+CUST0144,45.0,Male,PROD193,"Good quality, fast delivery.",4,Positive,2024-05-23,Bangalore,Returned
+CUST0145,55.0,Other,PROD334,Great value for the price.,4,Positive,2024-05-24,Bangalore,Not Returned
+CUST0146,43.0,Male,PROD790,"Very bad experience, will not buy again.",3,Negative,2024-05-25,Hyderabad,Returned
+CUST0147,41.0,Female,PROD956,Best product I’ve used this year.,4,Positive,2024-05-26,Chennai,Not Returned
+CUST0148,32.0,Other,PROD981,Worst product I have ever bought.,5,Negative,2024-05-27,Hyderabad,Returned
+CUST0149,26.0,Other,PROD689,Great value for the price.,5,Positive,2024-05-28,,Returned
+CUST0150,50.0,Other,PROD701,"Good quality, fast delivery.",4,Positive,2024-05-29,Hyderabad,Not Returned
+CUST0151,49.0,Other,PROD121,Great value for the price.,2,Negative,2024-05-30,Mumbai,Not Returned
+CUST0152,23.0,Female,PROD883,Great value for the price.,2,Negative,2024-05-31,Delhi,Not Returned
+CUST0153,66.0,Male,PROD788,"Loved it, will buy again!",5,Positive,2024-06-01,Mumbai,Returned
+CUST0154,21.0,Male,PROD941,Best product I’ve used this year.,2,Negative,2024-06-02,Bangalore,Returned
+CUST0155,25.0,,PROD375,"Average quality, nothing special.",3,Neutral,2024-06-03,Mumbai,Not Returned
+CUST0156,,Female,PROD690,Best product I’ve used this year.,1,Negative,2024-06-04,Bangalore,Returned
+CUST0157,58.0,Male,PROD141,"Good quality, fast delivery.",4,Positive,2024-06-05,Mumbai,Returned
+CUST0158,28.0,Male,PROD881,"Excellent product, highly recommend!",3,Positive,2024-06-06,Chennai,Not Returned
+CUST0159,68.0,Male,PROD874,Terrible customer service.,5,Negative,2024-06-07,Chennai,Returned
+CUST0160,61.0,Male,PROD279,"Average quality, nothing special.",1,Negative,2024-06-08,Mumbai,Returned
+CUST0161,45.0,Male,PROD581,"Average quality, nothing special.",5,Positive,2024-06-09,Hyderabad,Not Returned
+CUST0162,56.0,Male,PROD631,Worst product I have ever bought.,1,Negative,2024-06-10,Bangalore,Not Returned
+CUST0163,22.0,Female,PROD767,Terrible customer service.,3,Negative,2024-06-11,Chennai,Not Returned
+CUST0164,42.0,Other,PROD552,Best product I’ve used this year.,1,Negative,2024-06-12,Bangalore,Returned
+CUST0165,42.0,Male,PROD384,"Average quality, nothing special.",2,Negative,2024-06-13,,Not Returned
+CUST0166,56.0,Female,PROD285,"Very bad experience, will not buy again.",3,Negative,2024-06-14,Delhi,Not Returned
+CUST0167,47.0,Female,PROD699,"Amazing experience, will watch again.",4,Positive,2024-06-15,,Not Returned
+CUST0168,51.0,Other,PROD546,"Excellent product, highly recommend!",5,Positive,2024-06-16,Chennai,Returned
+CUST0169,34.0,Other,PROD750,"Average quality, nothing special.",2,Negative,2024-06-17,Mumbai,Not Returned
+CUST0170,53.0,Male,PROD933,"Excellent product, highly recommend!",4,Positive,2024-06-18,Delhi,Not Returned
+CUST0171,18.0,Other,PROD603,"Loved it, will buy again!",1,Negative,2024-06-19,Bangalore,Not Returned
+CUST0172,61.0,Other,PROD193,Best product I’ve used this year.,2,Negative,2024-06-20,Mumbai,Returned
+CUST0173,64.0,Female,PROD581,Best product I’ve used this year.,4,Positive,2024-06-21,Chennai,Not Returned
+CUST0174,25.0,Female,PROD456,Great value for the price.,3,Neutral,2024-06-22,Delhi,Returned
+CUST0175,61.0,Female,PROD518,"Good quality, fast delivery.",1,Negative,2024-06-23,Chennai,Not Returned
+CUST0176,52.0,Male,PROD441,"Loved it, will buy again!",4,Positive,2024-06-24,Delhi,Returned
+CUST0177,66.0,Male,PROD428,"Excellent product, highly recommend!",1,Negative,2024-06-25,Delhi,Returned
+CUST0178,35.0,Other,PROD786,"Average quality, nothing special.",4,Positive,2024-06-26,Chennai,Returned
+CUST0179,67.0,Other,PROD207,Terrible customer service.,5,Negative,2024-06-27,Mumbai,Not Returned
+CUST0180,59.0,,PROD978,"Excellent product, highly recommend!",3,Positive,2024-06-28,Bangalore,Returned
+CUST0181,39.0,Male,PROD264,"Average quality, nothing special.",2,Negative,2024-06-29,Bangalore,Not Returned
+CUST0182,25.0,Female,PROD437,"Absolutely terrible, would not recommend.",4,Negative,2024-06-30,,Returned
+CUST0183,36.0,Male,PROD521,,1,Negative,2024-07-01,Chennai,Not Returned
+CUST0184,45.0,Male,PROD810,Worst product I have ever bought.,3,Negative,2024-07-02,Delhi,Not Returned
+CUST0185,28.0,Other,PROD607,,2,Negative,2024-07-03,Bangalore,Not Returned
+CUST0186,47.0,Other,PROD395,"Absolutely terrible, would not recommend.",1,Negative,2024-07-04,Delhi,Returned
+CUST0187,18.0,Female,PROD778,"Very bad experience, will not buy again.",3,Negative,2024-07-05,Delhi,Returned
+CUST0188,64.0,Male,PROD510,Satisfied with the purchase.,1,Negative,2024-07-06,Bangalore,Returned
+CUST0189,64.0,,PROD933,Satisfied with the purchase.,3,Neutral,2024-07-07,Mumbai,Not Returned
+CUST0190,34.0,Male,PROD878,Best product I’ve used this year.,2,Negative,2024-07-08,Delhi,Not Returned
+CUST0191,50.0,Male,PROD663,"Loved it, will buy again!",2,Negative,2024-07-09,Mumbai,Not Returned
+CUST0192,66.0,Female,PROD137,Worst product I have ever bought.,1,Negative,2024-07-10,Delhi,Not Returned
+CUST0193,29.0,Male,PROD565,"Good quality, fast delivery.",3,Neutral,2024-07-11,Chennai,Returned
+CUST0194,50.0,Female,PROD190,"Very bad experience, will not buy again.",4,Negative,2024-07-12,Delhi,Returned
+CUST0195,,,PROD422,Satisfied with the purchase.,2,Negative,2024-07-13,Delhi,Returned
+CUST0196,58.0,Other,PROD358,Worst product I have ever bought.,4,Negative,2024-07-14,Hyderabad,Returned
+CUST0197,37.0,Other,PROD431,Great value for the price.,4,Positive,2024-07-15,Chennai,Not Returned
+CUST0198,58.0,Other,PROD218,"Good quality, fast delivery.",5,Positive,2024-07-16,Chennai,Not Returned
+CUST0199,50.0,Female,PROD891,"Excellent product, highly recommend!",1,Negative,2024-07-17,Mumbai,Not Returned
+CUST0200,56.0,Female,PROD513,"Absolutely terrible, would not recommend.",1,Negative,2024-07-18,Mumbai,Returned
+CUST0201,30.0,Other,PROD985,Best product I’ve used this year.,1,Negative,2024-07-19,Delhi,Returned
+CUST0202,27.0,Other,PROD626,"Amazing experience, will watch again.",3,Positive,2024-07-20,Bangalore,Returned
+CUST0203,41.0,Other,PROD944,Worst product I have ever bought.,2,Negative,2024-07-21,Delhi,Not Returned
+CUST0204,66.0,Female,PROD101,Terrible customer service.,2,Negative,2024-07-22,Hyderabad,Returned
+CUST0205,28.0,Other,PROD773,Satisfied with the purchase.,5,Positive,2024-07-23,Delhi,Not Returned
+CUST0206,52.0,Female,PROD990,"Amazing experience, will watch again.",5,Positive,2024-07-24,Hyderabad,Not Returned
+CUST0207,67.0,Male,PROD655,"Excellent product, highly recommend!",5,Positive,2024-07-25,Delhi,Returned
+CUST0208,51.0,Other,PROD573,"Excellent product, highly recommend!",4,Positive,2024-07-26,Mumbai,Not Returned
+CUST0209,18.0,Female,PROD523,,1,Negative,2024-07-27,Delhi,Not Returned
+CUST0210,56.0,Female,PROD155,Not worth the money.,3,Neutral,2024-07-28,Mumbai,Not Returned
+CUST0211,38.0,Female,PROD292,Not worth the money.,2,Negative,2024-07-29,Bangalore,Returned
+CUST0212,49.0,Male,PROD630,"Amazing experience, will watch again.",3,Positive,2024-07-30,Bangalore,Returned
+CUST0213,19.0,Other,PROD470,"Very bad experience, will not buy again.",1,Negative,2024-07-31,,Returned
+CUST0214,25.0,Female,PROD737,Satisfied with the purchase.,1,Negative,2024-08-01,Delhi,Not Returned
+CUST0215,41.0,Other,PROD874,"Absolutely terrible, would not recommend.",2,Negative,2024-08-02,Chennai,Returned
+CUST0216,69.0,Female,PROD610,Satisfied with the purchase.,4,Positive,2024-08-03,Delhi,Returned
+CUST0217,37.0,Other,PROD740,"Very bad experience, will not buy again.",5,Negative,2024-08-04,Bangalore,Not Returned
+CUST0218,33.0,Male,PROD552,"Very bad experience, will not buy again.",4,Negative,2024-08-05,Hyderabad,Not Returned
+CUST0219,21.0,Female,PROD878,,1,Negative,2024-08-06,Chennai,Not Returned
+CUST0220,33.0,Female,PROD152,"Good quality, fast delivery.",1,Negative,2024-08-07,Chennai,Not Returned
+CUST0221,54.0,Male,PROD308,"Average quality, nothing special.",4,Positive,2024-08-08,Bangalore,Returned
+CUST0222,23.0,Other,PROD373,"Very bad experience, will not buy again.",5,Negative,2024-08-09,Bangalore,Returned
+CUST0223,23.0,Female,PROD662,"Average quality, nothing special.",5,Positive,2024-08-10,Hyderabad,Returned
+CUST0224,64.0,Male,PROD234,Terrible customer service.,1,Negative,2024-08-11,Chennai,Not Returned
+CUST0225,49.0,Female,PROD394,"Good quality, fast delivery.",5,Positive,2024-08-12,,Not Returned
+CUST0226,70.0,Female,PROD548,"Amazing experience, will watch again.",5,Positive,2024-08-13,Bangalore,Not Returned
+CUST0227,22.0,Female,PROD815,"Good quality, fast delivery.",2,Negative,2024-08-14,Hyderabad,Not Returned
+CUST0228,66.0,Other,PROD596,Worst product I have ever bought.,2,Negative,2024-08-15,Hyderabad,Not Returned
+CUST0229,52.0,Male,PROD224,"Absolutely terrible, would not recommend.",3,Negative,2024-08-16,Mumbai,Returned
+CUST0230,67.0,Male,PROD129,"Loved it, will buy again!",4,Positive,2024-08-17,Delhi,Not Returned
+CUST0231,26.0,Male,PROD745,Not worth the money.,1,Negative,2024-08-18,Mumbai,Not Returned
+CUST0232,26.0,Male,PROD723,"Good quality, fast delivery.",5,Positive,2024-08-19,Hyderabad,Returned
+CUST0233,60.0,Female,PROD918,Worst product I have ever bought.,3,Negative,2024-08-20,Bangalore,Not Returned
+CUST0234,48.0,Other,PROD345,Terrible customer service.,2,Negative,2024-08-21,Hyderabad,Returned
+CUST0235,53.0,Male,PROD826,Satisfied with the purchase.,5,Positive,2024-08-22,Chennai,Not Returned
+CUST0236,28.0,Other,PROD262,Worst product I have ever bought.,4,Negative,2024-08-23,Bangalore,Returned
+CUST0237,34.0,Male,PROD418,"Good quality, fast delivery.",2,Negative,2024-08-24,Mumbai,Returned
+CUST0238,51.0,,PROD664,Not worth the money.,1,Negative,2024-08-25,Mumbai,Not Returned
+CUST0239,56.0,Female,PROD114,,5,Negative,2024-08-26,Mumbai,Returned
+CUST0240,45.0,Female,PROD665,Best product I’ve used this year.,3,Positive,2024-08-27,Bangalore,Not Returned
+CUST0241,31.0,Female,PROD517,"Absolutely terrible, would not recommend.",1,Negative,2024-08-28,Delhi,Not Returned
+CUST0242,52.0,Other,PROD195,"Very bad experience, will not buy again.",5,Negative,2024-08-29,Delhi,Not Returned
+CUST0243,66.0,Female,PROD330,"Amazing experience, will watch again.",5,Positive,2024-08-30,Delhi,Not Returned
+CUST0244,64.0,Female,PROD961,"Amazing experience, will watch again.",5,Positive,2024-08-31,Hyderabad,Not Returned
+CUST0245,62.0,Male,PROD216,Best product I’ve used this year.,5,Positive,2024-09-01,Hyderabad,Not Returned
+CUST0246,30.0,Male,PROD572,Worst product I have ever bought.,5,Negative,2024-09-02,Chennai,Not Returned
+CUST0247,63.0,Female,PROD220,"Absolutely terrible, would not recommend.",1,Negative,2024-09-03,Bangalore,Returned
+CUST0248,37.0,Female,PROD763,,4,Positive,2024-09-04,Chennai,Not Returned
+CUST0249,43.0,Other,PROD952,Not worth the money.,4,Positive,2024-09-05,Hyderabad,Not Returned
+CUST0250,60.0,Other,PROD257,Satisfied with the purchase.,1,Negative,2024-09-06,Bangalore,Returned
+CUST0251,59.0,Male,PROD610,Great value for the price.,4,Positive,2024-09-07,Mumbai,Not Returned
+CUST0252,41.0,Other,PROD833,Not worth the money.,3,Neutral,2024-09-08,Bangalore,Not Returned
+CUST0253,46.0,Female,PROD398,"Loved it, will buy again!",3,Positive,2024-09-09,Hyderabad,Returned
+CUST0254,51.0,Female,PROD621,Satisfied with the purchase.,1,Negative,2024-09-10,Mumbai,Not Returned
+CUST0255,46.0,Male,PROD822,Not worth the money.,3,Neutral,2024-09-11,Mumbai,Not Returned
+CUST0256,25.0,Female,PROD379,Not worth the money.,1,Negative,2024-09-12,Bangalore,Not Returned
+CUST0257,33.0,Female,PROD525,"Absolutely terrible, would not recommend.",3,Negative,2024-09-13,Delhi,Not Returned
+CUST0258,32.0,Female,PROD954,,2,Negative,2024-09-14,Hyderabad,Returned
+CUST0259,22.0,Female,PROD594,"Loved it, will buy again!",1,Negative,2024-09-15,Hyderabad,Not Returned
+CUST0260,39.0,Other,PROD583,,5,Positive,2024-09-16,Delhi,Not Returned
+CUST0261,19.0,Other,PROD349,"Loved it, will buy again!",3,Positive,2024-09-17,Chennai,Not Returned
+CUST0262,55.0,Other,PROD567,"Amazing experience, will watch again.",2,Negative,2024-09-18,Chennai,Not Returned
+CUST0263,53.0,Other,PROD664,Terrible customer service.,1,Negative,2024-09-19,Hyderabad,Not Returned
+CUST0264,32.0,Other,PROD248,"Loved it, will buy again!",3,Positive,2024-09-20,Delhi,Returned
+CUST0265,55.0,Male,PROD492,"Average quality, nothing special.",5,Positive,2024-09-21,Delhi,Returned
+CUST0266,32.0,Female,PROD295,"Amazing experience, will watch again.",3,Positive,2024-09-22,Mumbai,Returned
+CUST0267,18.0,Male,PROD713,Satisfied with the purchase.,2,Negative,2024-09-23,Chennai,Returned
+CUST0268,22.0,Female,PROD620,,4,Negative,2024-09-24,Chennai,Not Returned
+CUST0269,63.0,Female,PROD864,"Very bad experience, will not buy again.",4,Negative,2024-09-25,Mumbai,Returned
+CUST0270,58.0,Female,PROD239,"Very bad experience, will not buy again.",2,Negative,2024-09-26,Bangalore,Not Returned
+CUST0271,21.0,Male,PROD984,"Very bad experience, will not buy again.",2,Negative,2024-09-27,Chennai,Not Returned
+CUST0272,32.0,Female,PROD171,Not worth the money.,1,Negative,2024-09-28,Mumbai,Returned
+CUST0273,22.0,Female,PROD382,"Very bad experience, will not buy again.",4,Negative,2024-09-29,Delhi,Not Returned
+CUST0274,20.0,Other,PROD891,,1,Negative,2024-09-30,Bangalore,Not Returned
+CUST0275,39.0,Other,PROD908,"Absolutely terrible, would not recommend.",3,Negative,2024-10-01,,Returned
+CUST0276,22.0,Female,PROD974,"Loved it, will buy again!",2,Negative,2024-10-02,Delhi,Not Returned
+CUST0277,50.0,Other,PROD524,Best product I’ve used this year.,1,Negative,2024-10-03,Bangalore,Returned
+CUST0278,33.0,Male,PROD448,"Average quality, nothing special.",2,Negative,2024-10-04,Mumbai,Not Returned
+CUST0279,35.0,Female,PROD906,Worst product I have ever bought.,1,Negative,2024-10-05,Delhi,Returned
+CUST0280,60.0,Male,PROD619,"Excellent product, highly recommend!",3,Positive,2024-10-06,Bangalore,Not Returned
+CUST0281,,Other,PROD373,"Good quality, fast delivery.",3,Neutral,2024-10-07,Hyderabad,Not Returned
+CUST0282,31.0,Other,PROD940,Worst product I have ever bought.,5,Negative,2024-10-08,Delhi,Returned
+CUST0283,52.0,Male,PROD102,Worst product I have ever bought.,4,Negative,2024-10-09,Delhi,Not Returned
+CUST0284,26.0,Female,PROD389,"Loved it, will buy again!",5,Positive,2024-10-10,Chennai,Not Returned
+CUST0285,64.0,Other,PROD843,"Amazing experience, will watch again.",4,Positive,2024-10-11,Bangalore,Not Returned
+CUST0286,54.0,Other,PROD405,"Very bad experience, will not buy again.",3,Negative,2024-10-12,Bangalore,Not Returned
+CUST0287,54.0,Other,PROD957,Not worth the money.,1,Negative,2024-10-13,Chennai,Returned
+CUST0288,48.0,Male,PROD701,"Loved it, will buy again!",2,Negative,2024-10-14,Mumbai,Not Returned
+CUST0289,33.0,Male,PROD693,"Amazing experience, will watch again.",3,Positive,2024-10-15,Mumbai,Returned
+CUST0290,68.0,Other,PROD775,Best product I’ve used this year.,3,Positive,2024-10-16,Chennai,Returned
+CUST0291,48.0,Female,PROD601,Not worth the money.,1,Negative,2024-10-17,Delhi,Returned
+CUST0292,69.0,Male,PROD986,"Absolutely terrible, would not recommend.",3,Negative,2024-10-18,Hyderabad,Not Returned
+CUST0293,44.0,Female,PROD252,"Excellent product, highly recommend!",3,Positive,2024-10-19,Mumbai,Returned
+CUST0294,30.0,Male,PROD557,Terrible customer service.,1,Negative,2024-10-20,Hyderabad,Returned
+CUST0295,24.0,Male,PROD651,"Good quality, fast delivery.",3,Neutral,2024-10-21,Bangalore,Not Returned
+CUST0296,24.0,Female,PROD595,Terrible customer service.,4,Negative,2024-10-22,Bangalore,Not Returned
+CUST0297,60.0,,PROD453,"Loved it, will buy again!",4,Positive,2024-10-23,Mumbai,Not Returned
+CUST0298,45.0,Female,PROD440,"Very bad experience, will not buy again.",4,Negative,2024-10-24,Delhi,Returned
+CUST0299,40.0,Male,PROD665,"Good quality, fast delivery.",4,Positive,2024-10-25,,Returned
+CUST0300,45.0,Female,PROD881,Worst product I have ever bought.,3,Negative,2024-10-26,Hyderabad,Returned
+CUST0301,44.0,Female,PROD656,Great value for the price.,2,Negative,2024-10-27,Delhi,Not Returned
+CUST0302,47.0,Female,PROD486,"Average quality, nothing special.",4,Positive,2024-10-28,Mumbai,Returned
+CUST0303,64.0,Female,PROD566,"Amazing experience, will watch again.",4,Positive,2024-10-29,Bangalore,Returned
+CUST0304,21.0,Female,PROD429,Satisfied with the purchase.,3,Neutral,2024-10-30,Mumbai,Not Returned
+CUST0305,61.0,Female,PROD990,Great value for the price.,5,Positive,2024-10-31,Delhi,Not Returned
+CUST0306,59.0,Female,PROD293,"Very bad experience, will not buy again.",3,Negative,2024-11-01,Delhi,Not Returned
+CUST0307,59.0,,PROD814,"Loved it, will buy again!",1,Negative,2024-11-02,Delhi,Not Returned
+CUST0308,24.0,Female,PROD344,Worst product I have ever bought.,4,Negative,2024-11-03,Chennai,Returned
+CUST0309,21.0,Male,PROD685,"Loved it, will buy again!",1,Negative,2024-11-04,,Not Returned
+CUST0310,43.0,Other,PROD492,"Very bad experience, will not buy again.",4,Negative,2024-11-05,Hyderabad,Returned
+CUST0311,64.0,Other,PROD339,Best product I’ve used this year.,5,Positive,2024-11-06,Delhi,Not Returned
+CUST0312,39.0,Male,PROD976,Terrible customer service.,2,Negative,2024-11-07,Delhi,Returned
+CUST0313,69.0,,PROD894,"Good quality, fast delivery.",5,Positive,2024-11-08,Bangalore,Not Returned
+CUST0314,24.0,Male,PROD520,Great value for the price.,3,Neutral,2024-11-09,Hyderabad,Not Returned
+CUST0315,33.0,Other,PROD144,Best product I’ve used this year.,3,Positive,2024-11-10,,Returned
+CUST0316,30.0,Male,PROD425,Not worth the money.,1,Negative,2024-11-11,Mumbai,Returned
+CUST0317,,Other,PROD862,Worst product I have ever bought.,1,Negative,2024-11-12,Delhi,Returned
+CUST0318,52.0,Male,PROD584,Best product I’ve used this year.,3,Positive,2024-11-13,Bangalore,Not Returned
+CUST0319,46.0,Male,PROD822,"Good quality, fast delivery.",3,Neutral,2024-11-14,Mumbai,Not Returned
+CUST0320,26.0,,PROD930,"Good quality, fast delivery.",3,Neutral,2024-11-15,Chennai,Not Returned
+CUST0321,45.0,Male,PROD490,"Amazing experience, will watch again.",4,Positive,2024-11-16,Delhi,Not Returned
+CUST0322,29.0,Male,PROD495,"Amazing experience, will watch again.",5,Positive,2024-11-17,Hyderabad,Returned
+CUST0323,35.0,Other,PROD779,Worst product I have ever bought.,4,Negative,2024-11-18,Delhi,Not Returned
+CUST0324,47.0,Male,PROD911,"Excellent product, highly recommend!",2,Negative,2024-11-19,Delhi,Not Returned
+CUST0325,33.0,Male,PROD940,"Good quality, fast delivery.",4,Positive,2024-11-20,,Not Returned
+CUST0326,22.0,Male,PROD767,"Amazing experience, will watch again.",3,Positive,2024-11-21,Bangalore,Returned
+CUST0327,46.0,Female,PROD255,"Absolutely terrible, would not recommend.",4,Negative,2024-11-22,Bangalore,Not Returned
+CUST0328,69.0,Other,PROD607,Terrible customer service.,1,Negative,2024-11-23,Bangalore,Not Returned
+CUST0329,53.0,Male,PROD137,"Excellent product, highly recommend!",3,Positive,2024-11-24,Mumbai,Not Returned
+CUST0330,24.0,Other,PROD229,"Average quality, nothing special.",5,Positive,2024-11-25,Bangalore,Returned
+CUST0331,21.0,Male,PROD614,Terrible customer service.,4,Negative,2024-11-26,Mumbai,Not Returned
+CUST0332,59.0,Female,PROD704,"Absolutely terrible, would not recommend.",3,Negative,2024-11-27,Chennai,Returned
+CUST0333,52.0,Other,PROD439,Best product I’ve used this year.,1,Negative,2024-11-28,Delhi,Returned
+CUST0334,18.0,Female,PROD990,Terrible customer service.,1,Negative,2024-11-29,Mumbai,Returned
+CUST0335,23.0,Female,PROD202,"Loved it, will buy again!",4,Positive,2024-11-30,Chennai,Not Returned
+CUST0336,66.0,Male,PROD995,"Loved it, will buy again!",3,Positive,2024-12-01,Mumbai,Returned
+CUST0337,33.0,Other,PROD965,"Excellent product, highly recommend!",5,Positive,2024-12-02,Chennai,Returned
+CUST0338,28.0,Other,PROD550,"Average quality, nothing special.",2,Negative,2024-12-03,Bangalore,Returned
+CUST0339,44.0,Other,PROD202,"Average quality, nothing special.",1,Negative,2024-12-04,Bangalore,Returned
+CUST0340,49.0,Other,PROD638,"Good quality, fast delivery.",2,Negative,2024-12-05,Chennai,Returned
+CUST0341,48.0,Male,PROD567,"Amazing experience, will watch again.",5,Positive,2024-12-06,Hyderabad,Not Returned
+CUST0342,31.0,Male,PROD115,Not worth the money.,4,Positive,2024-12-07,Chennai,Not Returned
+CUST0343,43.0,Female,PROD839,"Very bad experience, will not buy again.",1,Negative,2024-12-08,Mumbai,Not Returned
+CUST0344,21.0,Male,PROD247,"Average quality, nothing special.",2,Negative,2024-12-09,Chennai,Returned
+CUST0345,28.0,Other,PROD519,"Absolutely terrible, would not recommend.",1,Negative,2024-12-10,Delhi,Not Returned
+CUST0346,42.0,,PROD991,"Amazing experience, will watch again.",2,Negative,2024-12-11,Hyderabad,Returned
+CUST0347,18.0,Female,PROD770,"Excellent product, highly recommend!",3,Positive,2024-12-12,Chennai,Returned
+CUST0348,42.0,Other,PROD258,"Very bad experience, will not buy again.",3,Negative,2024-12-13,,Not Returned
+CUST0349,34.0,Other,PROD176,"Absolutely terrible, would not recommend.",4,Negative,2024-12-14,Hyderabad,Not Returned
+CUST0350,68.0,Female,PROD580,Worst product I have ever bought.,5,Negative,2024-12-15,Chennai,Returned
+CUST0351,68.0,Female,PROD900,Great value for the price.,1,Negative,2024-12-16,Chennai,Returned
+CUST0352,47.0,Other,PROD371,Not worth the money.,5,Positive,2024-12-17,Bangalore,Not Returned
+CUST0353,36.0,Male,PROD446,Not worth the money.,2,Negative,2024-12-18,Chennai,Not Returned
+CUST0354,45.0,Male,PROD738,Satisfied with the purchase.,4,Positive,2024-12-19,Chennai,Not Returned
+CUST0355,62.0,Other,PROD809,"Loved it, will buy again!",3,Positive,2024-12-20,Bangalore,Returned
+CUST0356,64.0,,PROD507,"Average quality, nothing special.",3,Neutral,2024-12-21,Bangalore,Returned
+CUST0357,,Other,PROD765,"Loved it, will buy again!",4,Positive,2024-12-22,Delhi,Returned
+CUST0358,53.0,Male,PROD182,Terrible customer service.,1,Negative,2024-12-23,Chennai,Not Returned
+CUST0359,60.0,Male,PROD972,"Absolutely terrible, would not recommend.",5,Negative,2024-12-24,Mumbai,Returned
+CUST0360,63.0,Other,PROD436,"Loved it, will buy again!",2,Negative,2024-12-25,Hyderabad,Returned
+CUST0361,49.0,Female,PROD972,Best product I’ve used this year.,5,Positive,2024-12-26,Bangalore,Returned
+CUST0362,,Other,PROD790,"Good quality, fast delivery.",3,Neutral,2024-12-27,Chennai,Not Returned
+CUST0363,30.0,Other,PROD979,"Good quality, fast delivery.",4,Positive,2024-12-28,Mumbai,Not Returned
+CUST0364,36.0,Male,PROD646,"Very bad experience, will not buy again.",3,Negative,2024-12-29,Hyderabad,Returned
+CUST0365,31.0,Other,PROD489,"Excellent product, highly recommend!",3,Positive,2024-12-30,Chennai,Not Returned
+CUST0366,21.0,Male,PROD424,"Average quality, nothing special.",2,Negative,2024-12-31,Mumbai,Returned
+CUST0367,55.0,Female,PROD741,"Average quality, nothing special.",1,Negative,2025-01-01,Hyderabad,Not Returned
+CUST0368,65.0,Other,PROD835,Best product I’ve used this year.,1,Negative,2025-01-02,,Not Returned
+CUST0369,52.0,Female,PROD877,"Good quality, fast delivery.",2,Negative,2025-01-03,Bangalore,Not Returned
+CUST0370,21.0,Other,PROD599,"Excellent product, highly recommend!",4,Positive,2025-01-04,,Not Returned
+CUST0371,65.0,Female,PROD993,"Amazing experience, will watch again.",5,Positive,2025-01-05,Mumbai,Not Returned
+CUST0372,,Male,PROD654,"Very bad experience, will not buy again.",4,Negative,2025-01-06,Mumbai,Returned
+CUST0373,21.0,Other,PROD136,Terrible customer service.,5,Negative,2025-01-07,Chennai,Not Returned
+CUST0374,21.0,Other,PROD732,Satisfied with the purchase.,1,Negative,2025-01-08,Hyderabad,Not Returned
+CUST0375,,Female,PROD170,"Amazing experience, will watch again.",3,Positive,2025-01-09,Chennai,Not Returned
+CUST0376,48.0,Male,PROD340,Not worth the money.,3,Neutral,2025-01-10,Mumbai,Returned
+CUST0377,50.0,Female,PROD746,Satisfied with the purchase.,4,Positive,2025-01-11,Delhi,Not Returned
+CUST0378,,Female,PROD800,"Good quality, fast delivery.",2,Negative,2025-01-12,Hyderabad,Returned
+CUST0379,28.0,Male,PROD394,Satisfied with the purchase.,5,Positive,2025-01-13,Mumbai,Returned
+CUST0380,21.0,Female,PROD332,Not worth the money.,3,Neutral,2025-01-14,Delhi,Not Returned
+CUST0381,50.0,Female,PROD864,Terrible customer service.,4,Negative,2025-01-15,Hyderabad,Returned
+CUST0382,23.0,Other,PROD192,Great value for the price.,2,Negative,2025-01-16,Bangalore,Returned
+CUST0383,29.0,Female,PROD544,Best product I’ve used this year.,1,Negative,2025-01-17,Chennai,Not Returned
+CUST0384,22.0,Other,PROD200,Worst product I have ever bought.,2,Negative,2025-01-18,Hyderabad,Returned
+CUST0385,56.0,Male,PROD878,"Very bad experience, will not buy again.",1,Negative,2025-01-19,Hyderabad,Returned
+CUST0386,22.0,Female,PROD748,"Loved it, will buy again!",4,Positive,2025-01-20,Mumbai,Not Returned
+CUST0387,61.0,Male,PROD820,Not worth the money.,2,Negative,2025-01-21,Delhi,Returned
+CUST0388,33.0,Other,PROD993,"Very bad experience, will not buy again.",4,Negative,2025-01-22,Hyderabad,Not Returned
+CUST0389,,Other,PROD202,Terrible customer service.,1,Negative,2025-01-23,Chennai,Not Returned
+CUST0390,25.0,Other,PROD554,"Amazing experience, will watch again.",3,Positive,2025-01-24,Hyderabad,Returned
+CUST0391,54.0,Female,PROD270,"Amazing experience, will watch again.",3,Positive,2025-01-25,Hyderabad,Not Returned
+CUST0392,33.0,Other,PROD810,"Good quality, fast delivery.",1,Negative,2025-01-26,Mumbai,Not Returned
+CUST0393,55.0,Other,PROD406,Satisfied with the purchase.,5,Positive,2025-01-27,,Returned
+CUST0394,56.0,Female,PROD129,Worst product I have ever bought.,5,Negative,2025-01-28,Delhi,Not Returned
+CUST0395,,,PROD147,"Amazing experience, will watch again.",3,Positive,2025-01-29,Mumbai,Returned
+CUST0396,57.0,Female,PROD432,Terrible customer service.,3,Negative,2025-01-30,Bangalore,Returned
+CUST0397,23.0,Other,PROD915,"Excellent product, highly recommend!",2,Negative,2025-01-31,Bangalore,Not Returned
+CUST0398,44.0,Other,PROD157,Great value for the price.,2,Negative,2025-02-01,Mumbai,Not Returned
+CUST0399,60.0,Female,PROD400,Not worth the money.,3,Neutral,2025-02-02,Delhi,Returned
+CUST0400,55.0,Female,PROD467,"Good quality, fast delivery.",5,Positive,2025-02-03,Mumbai,Returned
+CUST0401,54.0,Male,PROD483,"Excellent product, highly recommend!",2,Negative,2025-02-04,,Not Returned
+CUST0402,51.0,Male,PROD541,"Excellent product, highly recommend!",1,Negative,2025-02-05,Mumbai,Not Returned
+CUST0403,38.0,Female,PROD249,Great value for the price.,2,Negative,2025-02-06,Mumbai,Returned
+CUST0404,34.0,Female,PROD350,Terrible customer service.,2,Negative,2025-02-07,Hyderabad,Not Returned
+CUST0405,31.0,Male,PROD643,Great value for the price.,2,Negative,2025-02-08,Chennai,Returned
+CUST0406,60.0,Female,PROD521,Best product I’ve used this year.,4,Positive,2025-02-09,Bangalore,Not Returned
+CUST0407,,Other,PROD679,"Average quality, nothing special.",1,Negative,2025-02-10,Delhi,Returned
+CUST0408,38.0,Other,PROD798,Best product I’ve used this year.,3,Positive,2025-02-11,Hyderabad,Returned
+CUST0409,,Other,PROD911,Terrible customer service.,5,Negative,2025-02-12,Bangalore,Not Returned
+CUST0410,34.0,Female,PROD284,Terrible customer service.,5,Negative,2025-02-13,Chennai,Not Returned
+CUST0411,43.0,Female,PROD274,"Loved it, will buy again!",3,Positive,2025-02-14,Mumbai,Not Returned
+CUST0412,26.0,Male,PROD279,"Very bad experience, will not buy again.",4,Negative,2025-02-15,Chennai,Not Returned
+CUST0413,60.0,Female,PROD180,"Excellent product, highly recommend!",5,Positive,2025-02-16,Bangalore,Not Returned
+CUST0414,59.0,Female,PROD724,Satisfied with the purchase.,2,Negative,2025-02-17,Bangalore,Not Returned
+CUST0415,37.0,Male,PROD991,"Absolutely terrible, would not recommend.",5,Negative,2025-02-18,Hyderabad,Not Returned
+CUST0416,47.0,Female,PROD491,Not worth the money.,1,Negative,2025-02-19,Hyderabad,Returned
+CUST0417,38.0,Male,PROD734,"Average quality, nothing special.",1,Negative,2025-02-20,,Returned
+CUST0418,66.0,Female,PROD799,"Average quality, nothing special.",3,Neutral,2025-02-21,Mumbai,Returned
+CUST0419,22.0,Female,PROD346,Not worth the money.,4,Positive,2025-02-22,Chennai,Returned
+CUST0420,18.0,Female,PROD609,Worst product I have ever bought.,4,Negative,2025-02-23,Mumbai,Not Returned
+CUST0421,47.0,Female,PROD697,"Absolutely terrible, would not recommend.",5,Negative,2025-02-24,Chennai,Returned
+CUST0422,57.0,Other,PROD246,,4,Positive,2025-02-25,,Not Returned
+CUST0423,54.0,Other,PROD337,Worst product I have ever bought.,4,Negative,2025-02-26,Bangalore,Returned
+CUST0424,24.0,Female,PROD572,Worst product I have ever bought.,5,Negative,2025-02-27,Bangalore,Not Returned
+CUST0425,22.0,Other,PROD753,"Amazing experience, will watch again.",1,Negative,2025-02-28,Mumbai,Returned
+CUST0426,52.0,Male,PROD360,Best product I’ve used this year.,2,Negative,2025-03-01,Delhi,Not Returned
+CUST0427,31.0,Other,PROD570,"Loved it, will buy again!",3,Positive,2025-03-02,Bangalore,Not Returned
+CUST0428,50.0,Male,PROD361,"Very bad experience, will not buy again.",1,Negative,2025-03-03,Delhi,Returned
+CUST0429,34.0,Male,PROD782,Not worth the money.,4,Positive,2025-03-04,Bangalore,Returned
+CUST0430,26.0,Male,PROD109,"Absolutely terrible, would not recommend.",4,Negative,2025-03-05,Hyderabad,Not Returned
+CUST0431,40.0,,PROD923,"Excellent product, highly recommend!",5,Positive,2025-03-06,Hyderabad,Not Returned
+CUST0432,22.0,Female,PROD576,Not worth the money.,3,Neutral,2025-03-07,Mumbai,Returned
+CUST0433,33.0,Female,PROD394,"Excellent product, highly recommend!",2,Negative,2025-03-08,Chennai,Not Returned
+CUST0434,41.0,Other,PROD793,Satisfied with the purchase.,5,Positive,2025-03-09,Hyderabad,Returned
+CUST0435,36.0,Male,PROD659,"Very bad experience, will not buy again.",5,Negative,2025-03-10,Bangalore,Not Returned
+CUST0436,28.0,Other,PROD261,,2,Negative,2025-03-11,Bangalore,Returned
+CUST0437,46.0,Female,PROD175,"Good quality, fast delivery.",2,Negative,2025-03-12,Hyderabad,Returned
+CUST0438,52.0,Other,PROD552,Not worth the money.,4,Positive,2025-03-13,Hyderabad,Not Returned
+CUST0439,63.0,Other,PROD453,"Good quality, fast delivery.",5,Positive,2025-03-14,Chennai,Returned
+CUST0440,37.0,Female,PROD701,Not worth the money.,1,Negative,2025-03-15,Hyderabad,Not Returned
+CUST0441,57.0,Female,PROD406,"Absolutely terrible, would not recommend.",1,Negative,2025-03-16,Mumbai,Not Returned
+CUST0442,69.0,Male,PROD754,"Amazing experience, will watch again.",5,Positive,2025-03-17,Chennai,Not Returned
+CUST0443,59.0,Male,PROD534,Not worth the money.,2,Negative,2025-03-18,,Returned
+CUST0444,51.0,Female,PROD806,Terrible customer service.,3,Negative,2025-03-19,Bangalore,Not Returned
+CUST0445,18.0,Male,PROD356,"Very bad experience, will not buy again.",2,Negative,2025-03-20,Hyderabad,Returned
+CUST0446,60.0,Female,PROD567,Not worth the money.,2,Negative,2025-03-21,Mumbai,Returned
+CUST0447,70.0,Other,PROD965,"Excellent product, highly recommend!",3,Positive,2025-03-22,Mumbai,Returned
+CUST0448,53.0,Male,PROD409,"Loved it, will buy again!",2,Negative,2025-03-23,Bangalore,Not Returned
+CUST0449,37.0,Female,PROD303,"Average quality, nothing special.",3,Neutral,2025-03-24,Chennai,Not Returned
+CUST0450,60.0,,PROD493,Best product I’ve used this year.,5,Positive,2025-03-25,Bangalore,Returned
+CUST0451,,Other,PROD973,"Good quality, fast delivery.",3,Neutral,2025-03-26,Hyderabad,Returned
+CUST0452,26.0,Female,PROD594,Satisfied with the purchase.,1,Negative,2025-03-27,Bangalore,Returned
+CUST0453,34.0,Female,PROD209,"Absolutely terrible, would not recommend.",3,Negative,2025-03-28,Chennai,Returned
+CUST0454,25.0,Other,PROD342,"Loved it, will buy again!",2,Negative,2025-03-29,Delhi,Returned
+CUST0455,24.0,Other,PROD490,"Very bad experience, will not buy again.",5,Negative,2025-03-30,Bangalore,Not Returned
+CUST0456,65.0,Female,PROD685,,3,Neutral,2025-03-31,Chennai,Not Returned
+CUST0457,53.0,Female,PROD467,"Very bad experience, will not buy again.",2,Negative,2025-04-01,Delhi,Returned
+CUST0458,27.0,Other,PROD688,Great value for the price.,3,Neutral,2025-04-02,Chennai,Not Returned
+CUST0459,35.0,Other,PROD402,Not worth the money.,5,Positive,2025-04-03,Chennai,Not Returned
+CUST0460,36.0,Female,PROD816,,5,Positive,2025-04-04,Delhi,Not Returned
+CUST0461,56.0,Female,PROD402,Not worth the money.,1,Negative,2025-04-05,Bangalore,Not Returned
+CUST0462,31.0,Other,PROD122,Worst product I have ever bought.,5,Negative,2025-04-06,Delhi,Returned
+CUST0463,63.0,Female,PROD949,"Very bad experience, will not buy again.",2,Negative,2025-04-07,Bangalore,Returned
+CUST0464,39.0,Female,PROD774,Not worth the money.,5,Positive,2025-04-08,Chennai,Not Returned
+CUST0465,31.0,Female,PROD505,Terrible customer service.,5,Negative,2025-04-09,Bangalore,Returned
+CUST0466,61.0,Female,PROD381,"Absolutely terrible, would not recommend.",2,Negative,2025-04-10,Mumbai,Not Returned
+CUST0467,58.0,Male,PROD108,"Loved it, will buy again!",2,Negative,2025-04-11,Delhi,Returned
+CUST0468,34.0,Male,PROD679,Great value for the price.,5,Positive,2025-04-12,Delhi,Returned
+CUST0469,50.0,,PROD985,"Loved it, will buy again!",5,Positive,2025-04-13,Hyderabad,Returned
+CUST0470,49.0,Male,PROD802,,3,Positive,2025-04-14,Chennai,Returned
+CUST0471,34.0,Female,PROD896,"Average quality, nothing special.",5,Positive,2025-04-15,Chennai,Not Returned
+CUST0472,21.0,Male,PROD862,,1,Negative,2025-04-16,Bangalore,Returned
+CUST0473,23.0,,PROD150,,1,Negative,2025-04-17,Mumbai,Not Returned
+CUST0474,58.0,Other,PROD720,"Amazing experience, will watch again.",1,Negative,2025-04-18,Chennai,Not Returned
+CUST0475,45.0,Other,PROD863,"Very bad experience, will not buy again.",1,Negative,2025-04-19,Mumbai,Returned
+CUST0476,35.0,Male,PROD608,Worst product I have ever bought.,5,Negative,2025-04-20,Hyderabad,Not Returned
+CUST0477,20.0,Male,PROD952,Worst product I have ever bought.,3,Negative,2025-04-21,Delhi,Not Returned
+CUST0478,18.0,Male,PROD393,Great value for the price.,2,Negative,2025-04-22,Mumbai,Not Returned
+CUST0479,39.0,Other,PROD894,Best product I’ve used this year.,5,Positive,2025-04-23,Chennai,Not Returned
+CUST0480,67.0,Female,PROD918,"Loved it, will buy again!",4,Positive,2025-04-24,Delhi,Returned
+CUST0481,26.0,Female,PROD335,"Loved it, will buy again!",5,Positive,2025-04-25,Mumbai,Returned
+CUST0482,58.0,Other,PROD721,"Absolutely terrible, would not recommend.",1,Negative,2025-04-26,Mumbai,Not Returned
+CUST0483,34.0,Other,PROD921,"Amazing experience, will watch again.",4,Positive,2025-04-27,Bangalore,Not Returned
+CUST0484,28.0,Other,PROD460,"Average quality, nothing special.",5,Positive,2025-04-28,Delhi,Not Returned
+CUST0485,65.0,,PROD324,Great value for the price.,3,Neutral,2025-04-29,,Not Returned
+CUST0486,46.0,Female,PROD751,"Very bad experience, will not buy again.",3,Negative,2025-04-30,Bangalore,Not Returned
+CUST0487,53.0,Male,PROD294,"Average quality, nothing special.",4,Positive,2025-05-01,Chennai,Not Returned
+CUST0488,63.0,Male,PROD735,Terrible customer service.,2,Negative,2025-05-02,Mumbai,Returned
+CUST0489,45.0,Female,PROD356,Great value for the price.,4,Positive,2025-05-03,Bangalore,Returned
+CUST0490,53.0,Male,PROD794,"Average quality, nothing special.",3,Neutral,2025-05-04,Bangalore,Not Returned
+CUST0491,,Female,PROD873,"Good quality, fast delivery.",4,Positive,2025-05-05,Delhi,Not Returned
+CUST0492,,Male,PROD838,"Average quality, nothing special.",1,Negative,2025-05-06,Bangalore,Returned
+CUST0493,22.0,Female,PROD885,Best product I’ve used this year.,1,Negative,2025-05-07,Mumbai,Not Returned
+CUST0494,62.0,Male,PROD775,Best product I’ve used this year.,2,Negative,2025-05-08,Hyderabad,Returned
+CUST0495,27.0,,PROD797,"Amazing experience, will watch again.",4,Positive,2025-05-09,Chennai,Not Returned
+CUST0496,,Other,PROD958,"Very bad experience, will not buy again.",4,Negative,2025-05-10,Mumbai,Returned
+CUST0497,20.0,Male,PROD240,"Average quality, nothing special.",4,Positive,2025-05-11,Mumbai,Not Returned
+CUST0498,41.0,Female,PROD743,Best product I’ve used this year.,4,Positive,2025-05-12,Chennai,Not Returned
+CUST0499,55.0,,PROD199,"Amazing experience, will watch again.",2,Negative,2025-05-13,Chennai,Not Returned
+CUST0500,53.0,Male,PROD742,Satisfied with the purchase.,3,Neutral,2025-05-14,Bangalore,Not Returned
