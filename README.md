@@ -23,6 +23,6 @@ The objective is to classify reviews as **Positive** or **Negative** based on th
 - **Scikit-learn** – TF-IDF, Logistic Regression, Evaluation metrics
 
 
-##OUTPUT:
+## OUTPUT:
 https://github.com/user-attachments/assets/46fe754e-5f57-47aa-a459-4516d4aa03be
 
