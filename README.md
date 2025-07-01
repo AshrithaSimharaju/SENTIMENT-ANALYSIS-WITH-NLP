@@ -8,7 +8,7 @@
 **DURATION**: 4 WEEKS  
 **MENTOR**: NEELA SANTHOSH  
 
-## PROJECT OVERVIEW
+## DESCRIPTION
 
 This project focuses on performing **Sentiment Analysis** using **Natural Language Processing (NLP)** techniques on a dataset of 500 customer reviews.  
 The objective is to classify reviews as **Positive** or **Negative** based on their textual content.
@@ -24,5 +24,5 @@ The objective is to classify reviews as **Positive** or **Negative** based on th
 
 
 ##OUTPUT:
-
+https://github.com/user-attachments/assets/46fe754e-5f57-47aa-a459-4516d4aa03be
 
